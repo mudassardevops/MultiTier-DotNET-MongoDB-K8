@@ -11,8 +11,7 @@ permissions:
 
 env:
   IMAGE_NAME: adijaiswal/dotnet-mongo-crud
-  TAG: ${{ github.sha }}
-
+  TAG: latest
 
 jobs:
   build-and-deploy:
